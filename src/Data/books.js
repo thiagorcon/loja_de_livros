@@ -8,7 +8,7 @@ const Books = [
 
   {
     id: 1,
-    name: "O Laberinto dos sonhos",
+    name: "O Labirinto dos sonhos",
     category: "Fantasia",
     price: 32.9,
   },

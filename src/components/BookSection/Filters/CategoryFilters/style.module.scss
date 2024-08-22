@@ -1,0 +1,18 @@
+.containerCategoryFilters{
+     display: flex;
+     justify-content: start;
+     align-items: start;
+     flex-direction: column;
+     margin-left: -200px;
+
+h2{
+     margin-bottom: 1.5rem;
+}
+
+ul{
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+}
+
+}

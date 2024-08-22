@@ -1,5 +1,5 @@
+import './styles/index.scss';
 
-//import './App.css'
 
 import { HomePage } from "./Pages/HomePage"
 

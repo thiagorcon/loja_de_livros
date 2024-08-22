@@ -1,0 +1,30 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+img{
+     max-width: 100%;
+     margin: 10px;
+     }
+ul, ol{
+list-style: none;
+}
+
+button{
+     cursor: pointer;
+     background: transparent;
+     border: none;
+}
+
+input{
+     background: transparent;
+     border: none;
+}
+
+a{
+     text-decoration: underline;
+}
+
+

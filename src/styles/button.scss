@@ -1,0 +1,27 @@
+.btn{
+     color: var(--color-white);
+     font-size: 16px;
+     font-weight: 700;
+
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     
+     width: 115px;
+     
+     height: 51px;
+     //margin-top: 435px;
+     //margin-left: 436px;
+     gap: .6rem;
+     border-radius: 8px;
+     opacity: 0px;
+     padding: 0 0.2375rem;
+     height: 3.1875rem;
+     background-color: var(--color-primary); 
+     
+
+     transition: .4s;
+     &:hover{
+          filter: brightness(1.2);
+     }
+}

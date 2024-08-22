@@ -1,0 +1,27 @@
+.flexbox{
+     width: 100vw;
+     height: auto;     
+     display: flex;
+     //align-items: center;
+     justify-content: center;
+     gap: 0 50px ;  
+     //padding: 2.5rem 0 ; 
+    
+     
+     
+     //para modif.  na ultima filha do container
+     & > div:last-child{
+          width: 100%;
+     }
+
+     // & > div:first-child{
+     //      margin-bottom: 800px;
+     //      background-color: red;
+     //}
+
+     @media (max-width : 720px){
+          display: flex;
+          flex-direction: column;
+     }
+}    
+

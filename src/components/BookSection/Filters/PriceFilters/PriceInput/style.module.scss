@@ -1,0 +1,12 @@
+.inputBox{
+     display: flex;
+     flex-direction: column;
+     gap: .8125rem;
+     margin-left: -170px;
+
+     input{
+          width: 100%;
+          max-width: 11.875rem;
+     }
+}
+

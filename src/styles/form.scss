@@ -1,0 +1,27 @@
+%input{
+     // width: 238px;
+     //height: 51px;
+     //top: 311px;
+     //left: 436px;
+     //gap: 0px;
+     border-radius: 8px;
+     border: 1px solid var(--color-primary);
+     opacity: 0px;   
+     padding: 0 1.25rem;
+     
+     font-family: (--font-secundary);
+     font-size: 1rem;
+     font-weight: 400px; 
+
+     color: var(--color-black);
+}
+
+.input-small{
+     @extend %input; 
+     height: 2.625rem;
+}
+
+.input-medium{
+     @extend %input;
+     height: 3.25rem;
+}
